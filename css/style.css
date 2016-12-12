@@ -577,6 +577,8 @@ License URI:http://www.gnu.org/licenses/gpl-2.0.html
 
 	.nav-menu ul.nav{
 		height: 100%;
+		line-height: 50px;
+		vertical-align: middle;
 	}
 
 	.nav li{
@@ -849,7 +851,7 @@ License URI:http://www.gnu.org/licenses/gpl-2.0.html
 	}
 	
 	#features{
-		background:#333 url(../images/parallax/3.jpg) repeat;
+		background:#333 url(../images/imagem-site2.jpg) repeat;
 	}
 
 
@@ -1087,7 +1089,7 @@ License URI:http://www.gnu.org/licenses/gpl-2.0.html
 	}
 	
 	#fun-acts{
-		background:#333 url(../images/bgd/background5.jpg) repeat;
+		background:#333 url(../images/imagem2.jpg) repeat;
 	}
 
 
