@@ -422,11 +422,27 @@ License URI:http://www.gnu.org/licenses/gpl-2.0.html
 	#slides .slides-container .image3{
 		background-image:url(../images/slider3.jpg);
 	}
-	
-	#slides .slides-container .image4{
-		background-image:url(../images/1.jpg);
-	}
 
+	@media (max-width:499px){
+	  #slides .slides-container div{
+			background-position:center center;
+			background-attachment: fixed;
+			background-size: 150%;
+		}
+
+		#slides .slides-container .image1{
+			background-image:url(../images/slider_mobile_1.jpg);
+		}
+
+		#slides .slides-container .image2{
+			background-image:url(../images/slider_mobile_2.jpg);
+		}
+		
+		#slides .slides-container .image3{
+			background-image:url(../images/slider_mobile_3.jpg);
+		}
+	}
+	
 	.v2 .home-arrow{
 		margin:0 auto;
 		left:50%;
